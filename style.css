@@ -1,0 +1,36 @@
+body{
+    background: linear-gradient(135deg, #75ddf7, #8c82c2);
+    color: rgb(30, 233, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family:monospace;
+}
+
+/* --------Clock-------- */
+.clock-container{
+    text-align: center;
+    background: rgba(37, 68, 77, 0.7);
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px #7544d1, 0 0 50px #b495f1;
+}
+
+/* -------Date-------- */
+#date-display{
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: #b495f1;
+}
+
+/* --------Time-------- */
+#clock{
+    font-size: 4rem;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 450px;
+}
